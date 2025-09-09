@@ -1,0 +1,791 @@
+[
+  {
+    "iter": 0,
+    "local_step": 0,
+    "tag": "init",
+    "params": {
+      "attention_dim": 24,
+      "attention_dropout": 0.3971046208110646,
+      "attention_heads": 4,
+      "decoder_dropout": 0.20328804870126543,
+      "decoder_units": 144,
+      "encoder_dropout": 0.23618904278222874,
+      "encoder_units": 64,
+      "latent_dim": 80,
+      "learning_rate": 3.658102533363931e-05
+    },
+    "score": 99.98109927824407,
+    "metrics": {
+      "mse": 0.18148838671266346,
+      "mae": 0.24839362502502663,
+      "latent_distance": 5.673948606036357e-05,
+      "threshold_mse": 0.23973598020947443,
+      "threshold_latent": 2.6388941470951582e-05
+    },
+    "step_size": 0.15
+  },
+  {
+    "iter": 0,
+    "local_step": 0,
+    "tag": "init",
+    "params": {
+      "attention_dim": 16,
+      "attention_dropout": 0.28150562151144,
+      "attention_heads": 4,
+      "decoder_dropout": 0.24357519200529215,
+      "decoder_units": 176,
+      "encoder_dropout": 0.41067909091808463,
+      "encoder_units": 72,
+      "latent_dim": 64,
+      "learning_rate": 0.0002953547033111717
+    },
+    "score": 99.9999865103598,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 3.0468944741566005e-08,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 3.0468944741566005e-08
+    },
+    "step_size": 0.15
+  },
+  {
+    "iter": 0,
+    "local_step": 0,
+    "tag": "init",
+    "params": {
+      "attention_dim": 8,
+      "attention_dropout": 0.3936821395602639,
+      "attention_heads": 8,
+      "decoder_dropout": 0.150524858392461,
+      "decoder_units": 128,
+      "encoder_dropout": 0.3286981878494784,
+      "encoder_units": 40,
+      "latent_dim": 24,
+      "learning_rate": 5.0678209754915875e-05
+    },
+    "score": 99.99947629975942,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 1.5611371355488739e-06,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 1.5611371355488734e-06
+    },
+    "step_size": 0.15
+  },
+  {
+    "iter": 1,
+    "local_step": 0,
+    "tag": "base_evaluated",
+    "params": {
+      "attention_dim": 24,
+      "attention_dropout": 0.3971046208110646,
+      "attention_heads": 4,
+      "decoder_dropout": 0.20328804870126543,
+      "decoder_units": 144,
+      "encoder_dropout": 0.23618904278222874,
+      "encoder_units": 64,
+      "latent_dim": 80,
+      "learning_rate": 3.658102533363931e-05
+    },
+    "score": 99.99897227405273,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 3.073318079611759e-06,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 3.073318079611759e-06
+    },
+    "step_size": 0.15
+  },
+  {
+    "iter": 1,
+    "local_step": 1,
+    "tag": "local",
+    "params": {
+      "attention_dim": 24,
+      "attention_dropout": 0.3971046208110646,
+      "attention_heads": 4,
+      "decoder_dropout": 0.20328804870126543,
+      "decoder_units": 144,
+      "encoder_dropout": 0.22749739406358999,
+      "encoder_units": 64,
+      "latent_dim": 80,
+      "learning_rate": 3.658102533363931e-05
+    },
+    "score": 99.85826446202833,
+    "metrics": {
+      "mse": 0.18612359719654253,
+      "mae": 0.2514241962292121,
+      "latent_distance": 0.00042782979639536693,
+      "threshold_mse": 0.24133721290254262,
+      "threshold_latent": 0.00023917515625471845
+    },
+    "step_size": 0.135
+  },
+  {
+    "iter": 1,
+    "local_step": 2,
+    "tag": "local",
+    "params": {
+      "attention_dim": 24,
+      "attention_dropout": 0.3971046208110646,
+      "attention_heads": 4,
+      "decoder_dropout": 0.20328804870126543,
+      "decoder_units": 144,
+      "encoder_dropout": 0.23618904278222874,
+      "encoder_units": 56,
+      "latent_dim": 80,
+      "learning_rate": 3.658102533363931e-05
+    },
+    "score": 99.00912043570526,
+    "metrics": {
+      "mse": 0.21036856560802364,
+      "mae": 0.26813865110189977,
+      "latent_distance": 0.003095959175004336,
+      "threshold_mse": 0.27815036936500226,
+      "threshold_latent": 0.00220613639538628
+    },
+    "step_size": 0.14850000000000002
+  },
+  {
+    "iter": 1,
+    "local_step": 3,
+    "tag": "local",
+    "params": {
+      "attention_dim": 24,
+      "attention_dropout": 0.3971046208110646,
+      "attention_heads": 4,
+      "decoder_dropout": 0.20328804870126543,
+      "decoder_units": 144,
+      "encoder_dropout": 0.23618904278222874,
+      "encoder_units": 64,
+      "latent_dim": 80,
+      "learning_rate": 3.658102533363931e-05
+    },
+    "score": 99.98927268108272,
+    "metrics": {
+      "mse": 0.18085268997878906,
+      "mae": 0.24794638142776534,
+      "latent_distance": 3.2187228802428916e-05,
+      "threshold_mse": 0.2397124142978201,
+      "threshold_latent": 2.086723959366402e-05
+    },
+    "step_size": 0.16335000000000002
+  },
+  {
+    "iter": 2,
+    "local_step": 0,
+    "tag": "base_evaluated",
+    "params": {
+      "attention_dim": 16,
+      "attention_dropout": 0.28150562151144,
+      "attention_heads": 4,
+      "decoder_dropout": 0.24357519200529215,
+      "decoder_units": 176,
+      "encoder_dropout": 0.41067909091808463,
+      "encoder_units": 72,
+      "latent_dim": 64,
+      "learning_rate": 0.0002953547033111717
+    },
+    "score": 99.99999143280503,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 1.570159462807222e-08,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 1.570159462807222e-08
+    },
+    "step_size": 0.17968500000000004
+  },
+  {
+    "iter": 2,
+    "local_step": 1,
+    "tag": "local",
+    "params": {
+      "attention_dim": 16,
+      "attention_dropout": 0.28150562151144,
+      "attention_heads": 4,
+      "decoder_dropout": 0.24357519200529215,
+      "decoder_units": 176,
+      "encoder_dropout": 0.4732773393531796,
+      "encoder_units": 72,
+      "latent_dim": 64,
+      "learning_rate": 0.0002953547033111717
+    },
+    "score": 99.99997842423795,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 5.4727347980991756e-08,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 5.4727347980991756e-08
+    },
+    "step_size": 0.16171650000000004
+  },
+  {
+    "iter": 2,
+    "local_step": 2,
+    "tag": "local",
+    "params": {
+      "attention_dim": 16,
+      "attention_dropout": 0.28150562151144,
+      "attention_heads": 4,
+      "decoder_dropout": 0.24357519200529215,
+      "decoder_units": 176,
+      "encoder_dropout": 0.41067909091808463,
+      "encoder_units": 72,
+      "latent_dim": 64,
+      "learning_rate": 0.00027605753751014535
+    },
+    "score": 99.99998070622082,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 4.78813869550087e-08,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 4.788138695500869e-08
+    },
+    "step_size": 0.17788815000000005
+  },
+  {
+    "iter": 2,
+    "local_step": 3,
+    "tag": "local",
+    "params": {
+      "attention_dim": 16,
+      "attention_dropout": 0.28150562151144,
+      "attention_heads": 4,
+      "decoder_dropout": 0.24357519200529215,
+      "decoder_units": 176,
+      "encoder_dropout": 0.41067909091808463,
+      "encoder_units": 72,
+      "latent_dim": 80,
+      "learning_rate": 0.0002953547033111717
+    },
+    "score": 99.9999727364719,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 7.179068299781765e-08,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 7.179068299781765e-08
+    },
+    "step_size": 0.19567696500000006
+  },
+  {
+    "iter": 3,
+    "local_step": 0,
+    "tag": "base_evaluated",
+    "params": {
+      "attention_dim": 8,
+      "attention_dropout": 0.3936821395602639,
+      "attention_heads": 8,
+      "decoder_dropout": 0.150524858392461,
+      "decoder_units": 128,
+      "encoder_dropout": 0.3286981878494784,
+      "encoder_units": 40,
+      "latent_dim": 24,
+      "learning_rate": 5.0678209754915875e-05
+    },
+    "score": 99.9994979799881,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 1.4960934969371694e-06,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 1.4960934969371696e-06
+    },
+    "step_size": 0.2152446615000001
+  },
+  {
+    "iter": 3,
+    "local_step": 1,
+    "tag": "local",
+    "params": {
+      "attention_dim": 8,
+      "attention_dropout": 0.3936821395602639,
+      "attention_heads": 8,
+      "decoder_dropout": 0.06775879069106298,
+      "decoder_units": 128,
+      "encoder_dropout": 0.3286981878494784,
+      "encoder_units": 40,
+      "latent_dim": 32,
+      "learning_rate": 5.0678209754915875e-05
+    },
+    "score": 99.99950462547702,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 1.4761561502025202e-06,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 1.4761561502025204e-06
+    },
+    "step_size": 0.1937201953500001
+  },
+  {
+    "iter": 3,
+    "local_step": 2,
+    "tag": "local",
+    "params": {
+      "attention_dim": 8,
+      "attention_dropout": 0.3936821395602639,
+      "attention_heads": 8,
+      "decoder_dropout": 0.13075075105698014,
+      "decoder_units": 128,
+      "encoder_dropout": 0.3286981878494784,
+      "encoder_units": 40,
+      "latent_dim": 16,
+      "learning_rate": 5.0678209754915875e-05
+    },
+    "score": 99.99897998497497,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 3.050183216371053e-06,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 3.0501832163710522e-06
+    },
+    "step_size": 0.1743481758150001
+  },
+  {
+    "iter": 3,
+    "local_step": 3,
+    "tag": "local",
+    "params": {
+      "attention_dim": 8,
+      "attention_dropout": 0.3936821395602639,
+      "attention_heads": 8,
+      "decoder_dropout": 0.06775879069106298,
+      "decoder_units": 128,
+      "encoder_dropout": 0.3286981878494784,
+      "encoder_units": 32,
+      "latent_dim": 32,
+      "learning_rate": 4.5837369839202817e-05
+    },
+    "score": 99.92323138320351,
+    "metrics": {
+      "mse": 0.1830589275713342,
+      "mae": 0.24943037765415887,
+      "latent_distance": 0.00023107425206047544,
+      "threshold_mse": 0.23974567767425847,
+      "threshold_latent": 0.00014772807817568478
+    },
+    "step_size": 0.19178299339650012
+  },
+  {
+    "iter": 3,
+    "local_step": 4,
+    "tag": "local",
+    "params": {
+      "attention_dim": 16,
+      "attention_dropout": 0.34950146046870123,
+      "attention_heads": 8,
+      "decoder_dropout": 0.06775879069106298,
+      "decoder_units": 128,
+      "encoder_dropout": 0.3286981878494784,
+      "encoder_units": 40,
+      "latent_dim": 32,
+      "learning_rate": 5.0678209754915875e-05
+    },
+    "score": 99.99923707219966,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 2.278860681902846e-06,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 2.278860681902846e-06
+    },
+    "step_size": 0.21096129273615016
+  },
+  {
+    "iter": 4,
+    "local_step": 0,
+    "tag": "restart_init",
+    "params": {
+      "attention_dim": 24,
+      "attention_dropout": 0.3971046208110646,
+      "attention_heads": 4,
+      "decoder_dropout": 0.20328804870126543,
+      "decoder_units": 144,
+      "encoder_dropout": 0.23618904278222874,
+      "encoder_units": 64,
+      "latent_dim": 80,
+      "learning_rate": 3.658102533363931e-05
+    },
+    "score": 99.84774538775596,
+    "metrics": {
+      "mse": 0.1856191138797187,
+      "mae": 0.25148520503513794,
+      "latent_distance": 0.0004597976820285203,
+      "threshold_mse": 0.2411553610275948,
+      "threshold_latent": 0.0002965866136906793
+    },
+    "step_size": 0.2320574220097652
+  },
+  {
+    "iter": 4,
+    "local_step": 0,
+    "tag": "restart_init",
+    "params": {
+      "attention_dim": 16,
+      "attention_dropout": 0.28150562151144,
+      "attention_heads": 4,
+      "decoder_dropout": 0.24357519200529215,
+      "decoder_units": 176,
+      "encoder_dropout": 0.41067909091808463,
+      "encoder_units": 72,
+      "latent_dim": 64,
+      "learning_rate": 0.0002953547033111717
+    },
+    "score": 99.99998772126514,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 2.683622459856583e-08,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 2.683622459856583e-08
+    },
+    "step_size": 0.2320574220097652
+  },
+  {
+    "iter": 4,
+    "local_step": 0,
+    "tag": "restart_init",
+    "params": {
+      "attention_dim": 8,
+      "attention_dropout": 0.3936821395602639,
+      "attention_heads": 8,
+      "decoder_dropout": 0.150524858392461,
+      "decoder_units": 128,
+      "encoder_dropout": 0.3286981878494784,
+      "encoder_units": 40,
+      "latent_dim": 24,
+      "learning_rate": 5.0678209754915875e-05
+    },
+    "score": 99.99956046431075,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 1.3086327177571257e-06,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 1.3086327177571255e-06
+    },
+    "step_size": 0.2320574220097652
+  },
+  {
+    "iter": 4,
+    "local_step": 0,
+    "tag": "base_evaluated",
+    "params": {
+      "attention_dim": 24,
+      "attention_dropout": 0.3971046208110646,
+      "attention_heads": 4,
+      "decoder_dropout": 0.20328804870126543,
+      "decoder_units": 144,
+      "encoder_dropout": 0.23618904278222874,
+      "encoder_units": 64,
+      "latent_dim": 80,
+      "learning_rate": 3.658102533363931e-05
+    },
+    "score": 99.86058667438468,
+    "metrics": {
+      "mse": 0.18902096532240126,
+      "mae": 0.2532932389941341,
+      "latent_distance": 0.0004207526851733437,
+      "threshold_mse": 0.24349788344698287,
+      "threshold_latent": 0.000196172349653244
+    },
+    "step_size": 0.2320574220097652
+  },
+  {
+    "iter": 4,
+    "local_step": 1,
+    "tag": "local",
+    "params": {
+      "attention_dim": 24,
+      "attention_dropout": 0.3971046208110646,
+      "attention_heads": 4,
+      "decoder_dropout": 0.20328804870126543,
+      "decoder_units": 152,
+      "encoder_dropout": 0.23618904278222874,
+      "encoder_units": 64,
+      "latent_dim": 88,
+      "learning_rate": 3.658102533363931e-05
+    },
+    "score": 99.596647581154,
+    "metrics": {
+      "mse": 0.1978195685757919,
+      "mae": 0.26004260279968044,
+      "latent_distance": 0.0012307771503441067,
+      "threshold_mse": 0.25361497553561113,
+      "threshold_latent": 0.0006230389800463473
+    },
+    "step_size": 0.25526316421074174
+  },
+  {
+    "iter": 4,
+    "local_step": 2,
+    "tag": "local",
+    "params": {
+      "attention_dim": 24,
+      "attention_dropout": 0.3971046208110646,
+      "attention_heads": 6,
+      "decoder_dropout": 0.09360840949791593,
+      "decoder_units": 144,
+      "encoder_dropout": 0.11645592378386659,
+      "encoder_units": 64,
+      "latent_dim": 80,
+      "learning_rate": 3.658102533363931e-05
+    },
+    "score": 99.76110914006269,
+    "metrics": {
+      "mse": 0.18589450633297844,
+      "mae": 0.2521316750294766,
+      "latent_distance": 0.0007241736058400532,
+      "threshold_mse": 0.24491316760483742,
+      "threshold_latent": 0.000513096913255391
+    },
+    "step_size": 0.28078948063181597
+  },
+  {
+    "iter": 4,
+    "local_step": 3,
+    "tag": "local",
+    "params": {
+      "attention_dim": 24,
+      "attention_dropout": 0.3971046208110646,
+      "attention_heads": 4,
+      "decoder_dropout": 0.20328804870126543,
+      "decoder_units": 112,
+      "encoder_dropout": 0.23618904278222874,
+      "encoder_units": 64,
+      "latent_dim": 80,
+      "learning_rate": 3.236987368943725e-05
+    },
+    "score": 99.88783217271892,
+    "metrics": {
+      "mse": 0.18560322677723853,
+      "mae": 0.25197476598843305,
+      "latent_distance": 0.0003381418065903435,
+      "threshold_mse": 0.24308077371252879,
+      "threshold_latent": 0.00015045728021310784
+    },
+    "step_size": 0.3088684286949976
+  },
+  {
+    "iter": 4,
+    "local_step": 4,
+    "tag": "local",
+    "params": {
+      "attention_dim": 24,
+      "attention_dropout": 0.3971046208110646,
+      "attention_heads": 6,
+      "decoder_dropout": 0.3403985124443454,
+      "decoder_units": 112,
+      "encoder_dropout": 0.23618904278222874,
+      "encoder_units": 64,
+      "latent_dim": 80,
+      "learning_rate": 3.7377283713213037e-05
+    },
+    "score": 99.9191257371674,
+    "metrics": {
+      "mse": 0.18291048144158906,
+      "mae": 0.2498198116471878,
+      "latent_distance": 0.00024347681173426087,
+      "threshold_mse": 0.24171812875927395,
+      "threshold_latent": 0.00011907247804346709
+    },
+    "step_size": 0.2779815858254978
+  },
+  {
+    "iter": 4,
+    "local_step": 5,
+    "tag": "local",
+    "params": {
+      "attention_dim": 24,
+      "attention_dropout": 0.3971046208110646,
+      "attention_heads": 6,
+      "decoder_dropout": 0.3403985124443454,
+      "decoder_units": 112,
+      "encoder_dropout": 0.23618904278222874,
+      "encoder_units": 64,
+      "latent_dim": 80,
+      "learning_rate": 3.875156813401914e-05
+    },
+    "score": 99.99721822091473,
+    "metrics": {
+      "mse": 0.18073593424906825,
+      "mae": 0.24770592296936225,
+      "latent_distance": 8.336364475359044e-06,
+      "threshold_mse": 0.2392923674678778,
+      "threshold_latent": 2.6817229618476164e-06
+    },
+    "step_size": 0.25018342724294806
+  },
+  {
+    "iter": 5,
+    "local_step": 0,
+    "tag": "base_evaluated",
+    "params": {
+      "attention_dim": 16,
+      "attention_dropout": 0.28150562151144,
+      "attention_heads": 4,
+      "decoder_dropout": 0.24357519200529215,
+      "decoder_units": 176,
+      "encoder_dropout": 0.41067909091808463,
+      "encoder_units": 72,
+      "latent_dim": 64,
+      "learning_rate": 0.0002953547033111717
+    },
+    "score": 99.99998741418365,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 2.7757470062997436e-08,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 2.7757470062997436e-08
+    },
+    "step_size": 0.22516508451865327
+  },
+  {
+    "iter": 5,
+    "local_step": 1,
+    "tag": "local",
+    "params": {
+      "attention_dim": 16,
+      "attention_dropout": 0.28150562151144,
+      "attention_heads": 4,
+      "decoder_dropout": 0.24357519200529215,
+      "decoder_units": 176,
+      "encoder_dropout": 0.41067909091808463,
+      "encoder_units": 72,
+      "latent_dim": 80,
+      "learning_rate": 0.0002953547033111717
+    },
+    "score": 99.99998788439316,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 2.634683997121527e-08,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 2.634683997121526e-08
+    },
+    "step_size": 0.20264857606678796
+  },
+  {
+    "iter": 5,
+    "local_step": 2,
+    "tag": "local",
+    "params": {
+      "attention_dim": 16,
+      "attention_dropout": 0.28150562151144,
+      "attention_heads": 4,
+      "decoder_dropout": 0.24357519200529215,
+      "decoder_units": 176,
+      "encoder_dropout": 0.41067909091808463,
+      "encoder_units": 72,
+      "latent_dim": 80,
+      "learning_rate": 0.0002987087578041647
+    },
+    "score": 99.99998886185456,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 2.3414452804151076e-08,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 2.3414452804151076e-08
+    },
+    "step_size": 0.18238371846010917
+  },
+  {
+    "iter": 5,
+    "local_step": 3,
+    "tag": "local",
+    "params": {
+      "attention_dim": 16,
+      "attention_dropout": 0.28150562151144,
+      "attention_heads": 4,
+      "decoder_dropout": 0.24357519200529215,
+      "decoder_units": 176,
+      "encoder_dropout": 0.41067909091808463,
+      "encoder_units": 72,
+      "latent_dim": 96,
+      "learning_rate": 0.0002987087578041647
+    },
+    "score": 99.99999244515043,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 1.2664556306904257e-08,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 1.2664556306904257e-08
+    },
+    "step_size": 0.16414534661409827
+  },
+  {
+    "iter": 5,
+    "local_step": 4,
+    "tag": "local",
+    "params": {
+      "attention_dim": 16,
+      "attention_dropout": 0.28150562151144,
+      "attention_heads": 4,
+      "decoder_dropout": 0.24357519200529215,
+      "decoder_units": 176,
+      "encoder_dropout": 0.41067909091808463,
+      "encoder_units": 88,
+      "latent_dim": 96,
+      "learning_rate": 0.0002987087578041647
+    },
+    "score": 99.99999294616336,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 1.1161516508942625e-08,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 1.1161516508942625e-08
+    },
+    "step_size": 0.14773081195268845
+  },
+  {
+    "iter": 5,
+    "local_step": 5,
+    "tag": "local",
+    "params": {
+      "attention_dim": 16,
+      "attention_dropout": 0.21988572715473964,
+      "attention_heads": 4,
+      "decoder_dropout": 0.24357519200529215,
+      "decoder_units": 176,
+      "encoder_dropout": 0.41067909091808463,
+      "encoder_units": 88,
+      "latent_dim": 96,
+      "learning_rate": 0.0002987087578041647
+    },
+    "score": 99.99998979125893,
+    "metrics": {
+      "mse": 0.1806717801067606,
+      "mae": 0.2476038224936056,
+      "latent_distance": 2.0626237061692697e-08,
+      "threshold_mse": 0.23909544107219888,
+      "threshold_latent": 2.0626237061692697e-08
+    },
+    "step_size": 0.1329577307574196
+  },
+  {
+    "final_best": {
+      "attention_dim": 16,
+      "attention_dropout": 0.28150562151144,
+      "attention_heads": 4,
+      "decoder_dropout": 0.24357519200529215,
+      "decoder_units": 176,
+      "encoder_dropout": 0.41067909091808463,
+      "encoder_units": 88,
+      "latent_dim": 96,
+      "learning_rate": 0.0002987087578041647
+    },
+    "score": 99.99999294616336
+  }
+]
